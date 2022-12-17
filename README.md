@@ -28,7 +28,7 @@
 
 
 <td style="border: none!important;"> <a href="https://www.facebook.com/ahmed.achour.rtx3090TI"><img align="left" alt="Facebook" src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"/></a></td>
-<td><a href="http://instagram.com/ahmed.achour.py"><img align="left" alt="Instagram" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/></a></td>
+<td><a href="https://www.instagram.com/ahmed.d.ac/"><img align="left" alt="Instagram" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/></a></td>
 <td><a href="https://t.me/21692814259"><img align="left" alt="Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a></td>
 
 </tr>
