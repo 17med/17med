@@ -3,7 +3,8 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=17med" alt="17med" /></a> </p>
 
-[![committers.top badge](https://user-badge.committers.top/tunisia/17med.svg)](https://user-badge.committers.top/tunisia/17med)
+[![committers.top badge](https://user-badge.committers.top/tunisia_private/17med.svg)](https://user-badge.committers.top/tunisia_private/17med)
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
