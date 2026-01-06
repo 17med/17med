@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Ahmed Dhia Ben Achour</h1>
 <h3 align="center">Indie game dev and full-stack dev with a passion for AI and embedded programming, exploring the intersections of technology and creativity.</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=17med" alt="17med" /></a> </p>
-
 [![committers.top badge](https://user-badge.committers.top/tunisia_private/17med.svg)](https://user-badge.committers.top/tunisia_private/17med)
 
 
