@@ -4,8 +4,7 @@
 
 
 [![committers.top badge](https://user-badge.committers.top/tunisia/17med.svg)](https://user-badge.committers.top/tunisia/17med)<br/>
-[![committers.top badge](https://user-badge.committers.top/tunisia_public/17med.svg)](https://user-badge.committers.top/tunisia_public/17med)<br/>
-[![committers.top badge](https://user-badge.committers.top/tunisia_private/17med.svg)](https://user-badge.committers.top/tunisia_private/17med)
+
 
 
 # 💻 Tech Stack:
