@@ -1,20 +1,104 @@
+<!-- ═══════════════ HEADER ═══════════════ -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Ahmed%20Dhia%20Ben%20Achour&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Builder%20from%20Tunisia%20%F0%9F%87%B9%F0%9F%87%B3&descAlignY=58&descSize=18" />
+</p>
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/17med.achour) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmed-dhia-ben-achour-043790239) 
+<p align="center">
+  <a href="https://github.com/17med">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7AA2F7&center=true&vCenter=true&width=620&lines=Full-stack+Developer+%E2%9A%A1;Cloud+%26+DevOps+tinkerer+%E2%98%81%EF%B8%8F;AI+%2B+IoT+builder+%F0%9F%A7%A0;My+ESP32+has+feelings+and+commits+them+%F0%9F%A4%96" />
+  </a>
+</p>
 
-
-[![committers.top badge](https://user-badge.committers.top/tunisia/17med.svg)](https://user-badge.committers.top/tunisia/17med)<br/>
-
-
-
-# 💻 Tech Stack:
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=flat&logo=microsoftazure&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=Cloudflare&logoColor=white) ![OVH](https://img.shields.io/badge/ovh-%23123F6D.svg?style=flat&logo=ovh&logoColor=#123F6D) ![OpenStack](https://img.shields.io/badge/Openstack-%23f01742.svg?style=flat&logo=openstack&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat&logo=firebase) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat&logo=google-cloud&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=flat&logo=angular&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=flat&logo=apachekafka) ![Bun](https://img.shields.io/badge/Bun-%23000000.svg?style=flat&logo=bun&logoColor=white) ![Electron.js](https://img.shields.io/badge/Electron-191970?style=flat&logo=Electron&logoColor=white) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=flat&logo=nVIDIA&logoColor=green) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB) ![Fastify](https://img.shields.io/badge/fastify-%23000000.svg?style=flat&logo=fastify&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=flat&logo=flask&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=white) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=flat&logo=nestjs&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=flat&logo=socket.io&badgeColor=010101) ![Three js](https://img.shields.io/badge/threejs-black?style=flat&logo=three.js&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=flat&logo=nginx&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=flat&logo=apache&logoColor=white) ![ApacheCassandra](https://img.shields.io/badge/cassandra-%231287B1.svg?style=flat&logo=apache-cassandra&logoColor=white) ![CockroachLabs](https://img.shields.io/badge/Cockroach%20Labs-6933FF?style=flat&logo=Cockroach%20Labs&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=flat&logo=firebase&logoColor=ffcd34) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=flat&logo=neo4j&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![PocketBase](https://img.shields.io/badge/pocketbase-%23b8dbe4.svg?style=flat&logo=Pocketbase&logoColor=black) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=flat&logo=redis&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=flat&logo=Prisma&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=flat&logo=Keras&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=flat&logo=numpy&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=flat&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![Gitea](https://img.shields.io/badge/Gitea-34495E?style=flat&logo=gitea&logoColor=5D9425) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=flat&logo=cypress&logoColor=058a5e) ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=flat&logo=jest&logoColor=white) ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=flat&logo=ansible&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat&logo=Arduino&logoColor=white) ![Bitwarden](https://img.shields.io/badge/bitwarden-%23175DDC.svg?style=flat&logo=bitwarden&logoColor=white) ![Jellyfin](https://img.shields.io/badge/jellyfin-%23000B25.svg?style=flat&logo=Jellyfin&logoColor=00A4DC) ![Pi-Hole](https://img.shields.io/badge/pihole-%2396060C.svg?style=flat&logo=pi-hole&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=Prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=flat&logo=grafana&logoColor=white) ![FFmpeg](https://shields.io/badge/FFmpeg-%23171717.svg?logo=ffmpeg&style=flat&labelColor=171717&logoColor=5cb85c) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat&logo=kubernetes&logoColor=white) ![Plex](https://img.shields.io/badge/plex-%23E5A00D.svg?style=flat&logo=plex&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=flat&logo=powerbi&logoColor=black) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=flat&logo=Trello&logoColor=white) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat&logo=Twilio&logoColor=white) ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=flat&logo=sonarqube&logoColor=4E9BCD) ![Itch.io](https://img.shields.io/badge/Itch-%23FF0B34.svg?style=flat&logo=Itch.io&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=flat&logo=nVIDIA&logoColor=white) ![OpenGL](https://img.shields.io/badge/OpenGL-white?logo=OpenGL&style=flat) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=flat&logo=swagger&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=flat&logo=blender&logoColor=white) ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=flat&logo=unity&logoColor=white) ![Wireguard](https://img.shields.io/badge/wireguard-%2388171A.svg?style=flat&logo=wireguard&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=17med&theme=default_repocard&hide_border=false&include_all_commits=false&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=17med&theme=default_repocard&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=17med&theme=default_repocard&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<p align="center">
+  <a href="https://linkedin.com/in/ahmed-dhia-ben-achour-043790239"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://instagram.com/17med.achour"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="https://user-badge.committers.top/tunisia/17med"><img src="https://user-badge.committers.top/tunisia/17med.svg" height="28" /></a>
+  <img src="https://komarev.com/ghpvc/?username=17med&style=for-the-badge&color=7aa2f7&label=PROFILE+VIEWS" />
+</p>
 
 ---
-[![](https://komarev.com/ghpvc/?username=17med&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### 👨‍💻 About me
+
+```ts
+const ahmed = {
+  location:  "Tunis, Tunisia 🇹🇳",
+  building:  ["web apps", "cloud infra", "AI experiments", "IoT gadgets"],
+  favorite:  "making hardware talk to the cloud",
+  sideQuest: "an ESP32 that dreams 7 times a day and pushes its thoughts to GitHub",
+  funFact:   "I self-host way too many things 🏠🖥️",
+};
+```
+
+---
+
+### 🚀 Featured projects
+
+<p align="center">
+  <a href="https://github.com/17med/AI-dream"><img src="https://github-readme-stats.shion.dev/api/pin/?username=17med&repo=AI-dream&theme=tokyonight&hide_border=true" /></a>
+  <a href="https://github.com/17med/Tickets_System"><img src="https://github-readme-stats.shion.dev/api/pin/?username=17med&repo=Tickets_System&theme=tokyonight&hide_border=true" /></a>
+  <a href="https://github.com/17med/webrtc-one-to-one"><img src="https://github-readme-stats.shion.dev/api/pin/?username=17med&repo=webrtc-one-to-one&theme=tokyonight&hide_border=true" /></a>
+  <a href="https://github.com/17med/password_calcul"><img src="https://github-readme-stats.shion.dev/api/pin/?username=17med&repo=password_calcul&theme=tokyonight&hide_border=true" /></a>
+</p>
+
+> 🤖 **AI Dream:** an ESP32 + TFT screen that wakes up 7× a day, picks a mood, asks an LLM (NVIDIA NIM) to speak from inside it, and commits the thought to GitHub. Seven moods, seven colors.
+
+---
+
+### 🛠️ Tech stack
+
+**Languages**<br/>
+<img src="https://skillicons.dev/icons?i=ts,js,py,cpp,cs,html,css&perline=12" />
+
+**Frontend & Mobile**<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,angular,threejs,electron,tailwind&perline=12" />
+
+**Backend**<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,bun,express,nestjs,fastapi,flask,kafka,prisma&perline=12" />
+
+**Databases**<br/>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,sqlite,cassandra,firebase,supabase&perline=12" />
+
+**AI / ML**<br/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&perline=12" />
+
+**Cloud & DevOps**<br/>
+<img src="https://skillicons.dev/icons?i=aws,azure,gcp,cloudflare,vercel,openstack,docker,kubernetes,ansible,nginx,githubactions&perline=12" />
+
+**Monitoring, Tools & Hardware**<br/>
+<img src="https://skillicons.dev/icons?i=prometheus,grafana,git,github,postman,jest,cypress,arduino,raspberrypi,linux&perline=12" />
+
+**Design & 3D**<br/>
+<img src="https://skillicons.dev/icons?i=figma,blender,unity&perline=12" />
+
+<sub>Also comfy with: Fastify · Socket.io · Neo4j · CockroachDB · PocketBase · Keras · MLflow · NumPy · Pandas · CUDA · OpenGL · FFmpeg · SonarQube · Swagger · Twilio · Power BI · WireGuard · Pi-hole · Jellyfin · Gitea · OVH</sub>
+
+---
+
+### 📊 GitHub stats
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.shion.dev/api?username=17med&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" />
+  <img height="170" src="https://github-readme-stats.shion.dev/api/top-langs/?username=17med&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=17med&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=17med&theme=tokyo-night&hide_border=true&area=true" />
+</p>
+
+<!-- 🐍 Snake: needs the GitHub Action below. Delete this block if you skip it. -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/17med/17med/output/github-snake-dark.svg" />
+    <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/17med/17med/output/github-snake.svg" />
+  </picture>
+</p>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" />
+</p>
