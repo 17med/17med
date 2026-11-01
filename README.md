@@ -5,20 +5,30 @@
 
 <br/>
 
+### `❯ cat ~/.config/focus.yml`
+
+```yaml
+robotics: [esp32, arduino, micropython, sensors, actuators]
+ai:       [pytorch, tensorflow, keras, cuda, mlflow]
+devops:   [kubernetes, docker, ansible, github-actions, gitea]
+infra:    [aws, azure, gcp, openstack, cloudflare, wireguard]
+observe:  [prometheus, grafana]
+homelab:  self-hosting everything I can
+mindset:  if it runs twice, automate it
+```
+
 ### `❯ ls ~/projects --featured`
 
 | project | what it does | stack |
 |:--|:--|:--|
-| [**ai-dream**](https://github.com/17med/AI-dream) | an ESP32 that feels a mood 7× a day, thinks one sentence, commits it to GitHub | `C++` `LVGL` `NVIDIA NIM` `Supabase` |
-| [**tickets_system**](https://github.com/17med/Tickets_System) | ticket management platform | `TypeScript` |
-| [**webrtc-one-to-one**](https://github.com/17med/webrtc-one-to-one) | peer-to-peer video calls over WebRTC | `JavaScript` `WebRTC` |
-| [**nextauth_prototype**](https://github.com/17med/nextauth_prototype) | authentication prototype | `Next.js` `NextAuth` |
-| [**menusystem**](https://github.com/17med/menusystem) | menu UI on an I2C OLED screen | `MicroPython` |
 | [**project_iot**](https://github.com/17med/project_iot) | control a lamp from the web | `ESP32` `Flask` |
+| [**menusystem**](https://github.com/17med/menusystem) | menu UI on an I2C OLED screen | `MicroPython` |
+| [**webrtc-one-to-one**](https://github.com/17med/webrtc-one-to-one) | peer-to-peer video calls | `JavaScript` `WebRTC` |
+| [**tickets_system**](https://github.com/17med/Tickets_System) | ticket management platform | `TypeScript` |
+| [**nextauth_prototype**](https://github.com/17med/nextauth_prototype) | authentication prototype | `Next.js` `NextAuth` |
+| [**password_calcul**](https://github.com/17med/password_calcul) | password strength calculator | `Python` |
 
-<br/>
-
-### `❯ git log --stat`
+### `❯ htop --user 17med`
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.shion.dev/api?username=17med&show_icons=true&count_private=true&hide_border=true&rank_icon=github&bg_color=0b0e14&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7" />
@@ -28,8 +38,6 @@
 <p align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=17med&bg_color=0b0e14&color=7aa2f7&line=bb9af7&point=f7768e&area=true&area_color=bb9af7&hide_border=true" />
 </p>
-
-<br/>
 
 ### `❯ exit`
 
