@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="650" viewBox="0 0 960 650">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="730" viewBox="0 0 960 730">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#7dcfff"/>
@@ -11,7 +11,8 @@
     <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
       <circle cx="6" cy="6" r="0.9" fill="#1f2335"/>
     </pattern>
-    <clipPath id="win"><rect x="10" y="10" width="940" height="630" rx="14"/></clipPath>
+    <clipPath id="win"><rect x="10" y="10" width="940" height="710" rx="14"/></clipPath>
+    <clipPath id="lane"><rect x="30" y="596" width="900" height="70" rx="10"/></clipPath>
   </defs>
 
   <style>
@@ -45,11 +46,16 @@
     .cur   { animation: blink 1s steps(1) infinite; }
     .led   { animation: blink 1.2s steps(1) infinite; }
     .led2  { animation: blink 1.2s steps(1) -.6s infinite; }
+    .spin  { animation: blink .16s steps(1) infinite; }
+    .spin2 { animation: blink .16s steps(1) -.08s infinite; }
     .lid   { opacity: 0; animation: lid 4.5s infinite 2s; }
     .bob   { animation: bob 2.4s ease-in-out infinite; }
     .look  { animation: look 3s ease-in-out infinite; }
     .msg   { opacity: 0; animation: msg 9s linear infinite; }
     .draw  { stroke-dasharray: 100; stroke-dashoffset: 100; animation: draw 2.2s ease-out 3.6s forwards; }
+    .drive { animation: drive 14s linear infinite; }
+    .fly   { animation: fly 9s linear infinite; }
+    .beam  { animation: beam 1.4s ease-in-out infinite; }
 
     @keyframes fade  { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
     @keyframes out   { to { opacity: 0; } }
@@ -60,10 +66,13 @@
     @keyframes look  { 0%, 100% { transform: translateX(0); } 30% { transform: translateX(1px); } 70% { transform: translateX(-1px); } }
     @keyframes msg   { 0% { opacity: 0; } 3% { opacity: 1; } 30% { opacity: 1; } 33.3% { opacity: 0; } 100% { opacity: 0; } }
     @keyframes draw  { to { stroke-dashoffset: 0; } }
+    @keyframes drive { from { transform: translateX(-70px); } to { transform: translateX(960px); } }
+    @keyframes fly   { from { transform: translateX(980px); } to { transform: translateX(-60px); } }
+    @keyframes beam  { 0%, 100% { opacity: .06; } 50% { opacity: .2; } }
   </style>
 
   <!-- ═══ window ═══ -->
-  <rect x="10" y="10" width="940" height="630" rx="14" fill="#0b0e14" stroke="#1f2335" stroke-width="1.5"/>
+  <rect x="10" y="10" width="940" height="710" rx="14" fill="#0b0e14" stroke="#1f2335" stroke-width="1.5"/>
   <g clip-path="url(#win)">
     <rect x="10" y="10" width="940" height="38" fill="#11131c"/>
     <line x1="10" y1="48" x2="950" y2="48" stroke="#1f2335"/>
@@ -142,7 +151,7 @@
   <text class="i fade" x="390" y="352" style="animation-delay:2.40s"><tspan class="k">Robotics</tspan><tspan x="492" class="v">ESP32 · Arduino · MicroPython</tspan></text>
   <text class="i fade" x="390" y="372" style="animation-delay:2.49s"><tspan class="k">Data</tspan><tspan x="492" class="v">Postgres · Redis · Cassandra · Kafka · Neo4j</tspan></text>
   <text class="i fade" x="390" y="392" style="animation-delay:2.58s"><tspan class="k">Web</tspan><tspan x="492" class="v">React · Next.js · NestJS · FastAPI · Bun</tspan></text>
-  <text class="i fade" x="390" y="406" style="animation-delay:2.67s" dy="6"><tspan class="k">Homelab</tspan><tspan x="492" class="v">Jellyfin · Pi-hole · Bitwarden · Plex</tspan></text>
+  <text class="i fade" x="390" y="412" style="animation-delay:2.67s"><tspan class="k">Homelab</tspan><tspan x="492" class="v">Jellyfin · Pi-hole · Bitwarden · Plex</tspan></text>
 
   <!-- ═══ panel 1 · infra ═══ -->
   <g class="fade" style="animation-delay:3.0s">
@@ -197,12 +206,51 @@
     <text x="656" y="565" class="s"><tspan class="dim">epoch</tspan><tspan class="v"> 100/100 </tspan><tspan class="ok">✓</tspan><tspan class="dim">   loss</tspan><tspan class="v"> 0.031</tspan></text>
   </g>
 
+  <!-- ═══ patrol lane · rover + drone ═══ -->
+  <g class="fade" style="animation-delay:3.5s">
+    <rect x="30" y="596" width="900" height="70" rx="10" class="panel"/>
+    <text x="916" y="614" class="s dim" text-anchor="end">❯ ./patrol --zone=homelab</text>
+    <line x1="40" y1="661" x2="920" y2="661" stroke="#2f3549" stroke-dasharray="6 6"/>
+
+    <g clip-path="url(#lane)">
+      <!-- rover -->
+      <g class="drive">
+        <g transform="translate(0 624) scale(4)" shape-rendering="crispEdges">
+          <path fill="#1a1b26" d="M11 0h2v1h-2z"/>
+          <rect class="led" x="12" y="0" width="1" height="1" fill="#7dcfff"/>
+          <path fill="#565f89" d="M11 1h1v1h-1z M2 5h1v1h-1z M7 5h1v1h-1z M12 5h1v1h-1z"/>
+          <path fill="#3d59a1" d="M2 2h12v1h-12z"/>
+          <path fill="#c0caf5" d="M1 3h14v2h-14z"/>
+          <rect x="14" y="4" width="1" height="1" fill="#e0af68"/>
+          <path fill="#414868" d="M1 6h3v3h-3z M6 6h3v3h-3z M11 6h3v3h-3z"/>
+          <path class="spin" fill="#7aa2f7" d="M2 7h1v1h-1z M7 7h1v1h-1z M12 7h1v1h-1z"/>
+        </g>
+      </g>
+
+      <!-- drone -->
+      <g class="fly">
+        <g class="bob">
+          <g transform="translate(0 600) scale(3)" shape-rendering="crispEdges">
+            <polygon class="beam" points="5,7 9,7 12,20 2,20" fill="#7dcfff"/>
+            <path class="spin"  fill="#565f89" d="M0 0h5v1h-5z M9 0h5v1h-5z"/>
+            <path class="spin2" fill="#565f89" d="M1 0h3v1h-3z M10 0h3v1h-3z"/>
+            <path fill="#565f89" d="M2 1h1v2h-1z M11 1h1v2h-1z"/>
+            <path fill="#bb9af7" d="M3 2h8v1h-8z M3 3h2v1h-2z M9 3h2v1h-2z M4 4h6v1h-6z"/>
+            <path fill="#1a1b26" d="M5 3h4v1h-4z"/>
+            <rect class="led" x="7" y="3" width="1" height="1" fill="#f7768e"/>
+            <path fill="#414868" d="M5 5h1v1h-1z M8 5h1v1h-1z M4 6h2v1h-2z M8 6h2v1h-2z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
   <!-- ═══ final prompt ═══ -->
-  <g class="fade" style="animation-delay:3.8s">
-    <text class="p" x="30" y="614"><tspan class="usr">17med@tunis</tspan><tspan class="v">:</tspan><tspan class="dir">~</tspan><tspan class="v">$ </tspan></text>
-    <rect class="cur" x="157" y="601" width="9" height="17" fill="#c0caf5"/>
+  <g class="fade" style="animation-delay:3.9s">
+    <text class="p" x="30" y="700"><tspan class="usr">17med@tunis</tspan><tspan class="v">:</tspan><tspan class="dir">~</tspan><tspan class="v">$ </tspan></text>
+    <rect class="cur" x="157" y="687" width="9" height="17" fill="#c0caf5"/>
   </g>
 
   <!-- crt scanlines -->
-  <rect x="10" y="48" width="940" height="592" fill="url(#scan)" clip-path="url(#win)" pointer-events="none"/>
+  <rect x="10" y="48" width="940" height="672" fill="url(#scan)" clip-path="url(#win)" pointer-events="none"/>
 </svg>
