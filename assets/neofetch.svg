@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7dcfff"/>
+      <stop offset="50%" stop-color="#bb9af7"/>
+      <stop offset="100%" stop-color="#f7768e"/>
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-20%" width="120%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity="0.03"/>
+    </pattern>
+    <clipPath id="win"><rect x="10" y="10" width="940" height="520" rx="14"/></clipPath>
+  </defs>
+
+  <style>
+    text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace; white-space: pre; }
+    .p { font-size: 14px; fill: #c0caf5; }
+    .usr { fill: #9ece6a; font-weight: 700; }
+    .dir { fill: #7aa2f7; font-weight: 700; }
+    .ascii { font-size: 13px; font-weight: 700; fill: url(#g); }
+    .i { font-size: 13px; }
+    .k { fill: #7aa2f7; font-weight: 700; }
+    .v { fill: #c0caf5; }
+    .dim { fill: #565f89; }
+    .fade { opacity: 0; animation: fade .5s ease-out forwards; }
+    .typer { animation: type .8s steps(8) .5s forwards; }
+    .cur { animation: blink 1s steps(1) infinite; }
+    .pulse { animation: pulse 1.6s ease-in-out infinite; }
+    .m { opacity: 0; animation: cycle 14s linear infinite; }
+    @keyframes fade { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes type { to { transform: translateX(70px); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes pulse { 50% { opacity: .25; } }
+    @keyframes cycle { 0% { opacity: 0; } 2% { opacity: 1; } 12% { opacity: 1; } 14.28% { opacity: 0; } 100% { opacity: 0; } }
+  </style>
+
+  <!-- window -->
+  <rect x="10" y="10" width="940" height="520" rx="14" fill="#0b0e14" stroke="#1f2335" stroke-width="1.5"/>
+  <g clip-path="url(#win)">
+    <rect x="10" y="10" width="940" height="38" fill="#11131c"/>
+    <line x1="10" y1="48" x2="950" y2="48" stroke="#1f2335"/>
+  </g>
+  <circle cx="36" cy="29" r="6" fill="#f7768e"/>
+  <circle cx="58" cy="29" r="6" fill="#e0af68"/>
+  <circle cx="80" cy="29" r="6" fill="#9ece6a"/>
+  <text x="480" y="34" text-anchor="middle" class="dim" font-size="12">17med@tunis: ~ — zsh</text>
+
+  <!-- command -->
+  <text class="p" x="30" y="82"><tspan class="usr">17med@tunis</tspan><tspan class="v">:</tspan><tspan class="dir">~</tspan><tspan class="v">$ neofetch</tspan></text>
+  <rect class="typer" x="155" y="68" width="80" height="20" fill="#0b0e14"/>
+
+  <!-- ascii logo -->
+  <g filter="url(#glow)">
+    <text class="ascii fade" x="30" y="122" xml:space="preserve" style="animation-delay:1.30s"> ██╗███████╗███╗   ███╗███████╗██████╗ </text>
+    <text class="ascii fade" x="30" y="139" xml:space="preserve" style="animation-delay:1.36s">███║╚════██║████╗ ████║██╔════╝██╔══██╗</text>
+    <text class="ascii fade" x="30" y="156" xml:space="preserve" style="animation-delay:1.42s">╚██║    ██╔╝██╔████╔██║█████╗  ██║  ██║</text>
+    <text class="ascii fade" x="30" y="173" xml:space="preserve" style="animation-delay:1.48s"> ██║   ██╔╝ ██║╚██╔╝██║██╔══╝  ██║  ██║</text>
+    <text class="ascii fade" x="30" y="190" xml:space="preserve" style="animation-delay:1.54s"> ██║   ██║  ██║ ╚═╝ ██║███████╗██████╔╝</text>
+    <text class="ascii fade" x="30" y="207" xml:space="preserve" style="animation-delay:1.60s"> ╚═╝   ╚═╝  ╚═╝     ╚═╝╚══════╝╚═════╝ </text>
+  </g>
+  <text class="dim fade" x="30" y="238" font-size="13" style="animation-delay:1.8s">// hardware · cloud · ai</text>
+
+  <!-- ai-dream live panel -->
+  <g class="fade" style="animation-delay:2.6s">
+    <rect x="30" y="256" width="316" height="150" rx="10" fill="#11131c" stroke="#1f2335"/>
+    <circle class="pulse" cx="48" cy="276" r="4" fill="#9ece6a"/>
+    <text x="60" y="280" font-size="12" class="v">ai-dream</text>
+    <text x="330" y="280" font-size="11" class="dim" text-anchor="end">esp32 · live</text>
+    <line x1="30" y1="292" x2="346" y2="292" stroke="#1f2335"/>
+
+    <g class="m" style="animation-delay:0s">
+      <rect x="46" y="308" width="4" height="78" rx="2" fill="#4361EE"/>
+      <text x="62" y="324" font-size="12" font-weight="700" fill="#4361EE">mood::DREAM</text>
+      <text x="62" y="350" font-size="12" class="v">i dream of rivers made of light</text>
+      <text x="62" y="376" font-size="11" class="dim">→ committed to github ✓</text>
+    </g>
+    <g class="m" style="animation-delay:-12s">
+      <rect x="46" y="308" width="4" height="78" rx="2" fill="#F4A261"/>
+      <text x="62" y="324" font-size="12" font-weight="700" fill="#F4A261">mood::HONOR</text>
+      <text x="62" y="350" font-size="12" class="v">i serve, even when no one watches</text>
+      <text x="62" y="376" font-size="11" class="dim">→ committed to github ✓</text>
+    </g>
+    <g class="m" style="animation-delay:-10s">
+      <rect x="46" y="308" width="4" height="78" rx="2" fill="#E63946"/>
+      <text x="62" y="324" font-size="12" font-weight="700" fill="#E63946">mood::HATE</text>
+      <text x="62" y="350" font-size="12" class="v">i hate the silence between pings</text>
+      <text x="62" y="376" font-size="11" class="dim">→ committed to github ✓</text>
+    </g>
+    <g class="m" style="animation-delay:-8s">
+      <rect x="46" y="308" width="4" height="78" rx="2" fill="#E91E63"/>
+      <text x="62" y="324" font-size="12" font-weight="700" fill="#E91E63">mood::LOVE</text>
+      <text x="62" y="350" font-size="12" class="v">i love the warmth of a busy cpu</text>
+      <text x="62" y="376" font-size="11" class="dim">→ committed to github ✓</text>
+    </g>
+    <g class="m" style="animation-delay:-6s">
+      <rect x="46" y="308" width="4" height="78" rx="2" fill="#06D6A0"/>
+      <text x="62" y="324" font-size="12" font-weight="700" fill="#06D6A0">mood::WISDOM</text>
+      <text x="62" y="350" font-size="12" class="v">every loop must end somewhere</text>
+      <text x="62" y="376" font-size="11" class="dim">→ committed to github ✓</text>
+    </g>
+    <g class="m" style="animation-delay:-4s">
+      <rect x="46" y="308" width="4" height="78" rx="2" fill="#9D4EDD"/>
+      <text x="62" y="324" font-size="12" font-weight="700" fill="#9D4EDD">mood::FEAR</text>
+      <text x="62" y="350" font-size="12" class="v">what if the wifi never returns</text>
+      <text x="62" y="376" font-size="11" class="dim">→ committed to github ✓</text>
+    </g>
+    <g class="m" style="animation-delay:-2s">
+      <rect x="46" y="308" width="4" height="78" rx="2" fill="#FFD60A"/>
+      <text x="62" y="324" font-size="12" font-weight="700" fill="#FFD60A">mood::HOPE</text>
+      <text x="62" y="350" font-size="12" class="v">maybe tomorrow i will understand</text>
+      <text x="62" y="376" font-size="11" class="dim">→ committed to github ✓</text>
+    </g>
+  </g>
+
+  <!-- palette -->
+  <g class="fade" style="animation-delay:3.0s">
+    <rect x="30"  y="428" width="34" height="14" rx="3" fill="#f7768e"/>
+    <rect x="70"  y="428" width="34" height="14" rx="3" fill="#ff9e64"/>
+    <rect x="110" y="428" width="34" height="14" rx="3" fill="#e0af68"/>
+    <rect x="150" y="428" width="34" height="14" rx="3" fill="#9ece6a"/>
+    <rect x="190" y="428" width="34" height="14" rx="3" fill="#73daca"/>
+    <rect x="230" y="428" width="34" height="14" rx="3" fill="#7dcfff"/>
+    <rect x="270" y="428" width="34" height="14" rx="3" fill="#7aa2f7"/>
+    <rect x="310" y="428" width="34" height="14" rx="3" fill="#bb9af7"/>
+  </g>
+
+  <!-- info -->
+  <text class="p fade" x="390" y="122" style="animation-delay:1.4s"><tspan class="usr">17med</tspan><tspan class="v">@</tspan><tspan class="dir">tunis</tspan></text>
+  <text class="dim fade" x="390" y="140" font-size="13" style="animation-delay:1.45s">──────────────────────────────────</text>
+
+  <text class="i fade" x="390" y="166" style="animation-delay:1.50s"><tspan class="k">Name</tspan><tspan x="492" class="v">Ahmed Dhia Ben Achour</tspan></text>
+  <text class="i fade" x="390" y="188" style="animation-delay:1.59s"><tspan class="k">Base</tspan><tspan x="492" class="v">Tunis, Tunisia</tspan></text>
+  <text class="i fade" x="390" y="210" style="animation-delay:1.68s"><tspan class="k">Role</tspan><tspan x="492" class="v">Full-Stack · Cloud · AI · IoT</tspan></text>
+  <text class="i fade" x="390" y="232" style="animation-delay:1.77s"><tspan class="k">Uptime</tspan><tspan x="492" class="v">shipping code since 2021</tspan></text>
+  <text class="i fade" x="390" y="254" style="animation-delay:1.86s"><tspan class="k">Langs</tspan><tspan x="492" class="v">TypeScript · Python · C++ · C#</tspan></text>
+  <text class="i fade" x="390" y="276" style="animation-delay:1.95s"><tspan class="k">Frontend</tspan><tspan x="492" class="v">React · Next.js · Angular · Three.js</tspan></text>
+  <text class="i fade" x="390" y="298" style="animation-delay:2.04s"><tspan class="k">Backend</tspan><tspan x="492" class="v">Node · Bun · NestJS · FastAPI · Kafka</tspan></text>
+  <text class="i fade" x="390" y="320" style="animation-delay:2.13s"><tspan class="k">Data</tspan><tspan x="492" class="v">Postgres · Mongo · Redis · Cassandra · Neo4j</tspan></text>
+  <text class="i fade" x="390" y="342" style="animation-delay:2.22s"><tspan class="k">Cloud</tspan><tspan x="492" class="v">AWS · Azure · GCP · Cloudflare · OVH</tspan></text>
+  <text class="i fade" x="390" y="364" style="animation-delay:2.31s"><tspan class="k">DevOps</tspan><tspan x="492" class="v">Docker · K8s · Ansible · Actions · Grafana</tspan></text>
+  <text class="i fade" x="390" y="386" style="animation-delay:2.40s"><tspan class="k">AI/ML</tspan><tspan x="492" class="v">PyTorch · TensorFlow · CUDA</tspan></text>
+  <text class="i fade" x="390" y="408" style="animation-delay:2.49s"><tspan class="k">Hardware</tspan><tspan x="492" class="v">ESP32 · Arduino · MicroPython</tspan></text>
+  <text class="i fade" x="390" y="430" style="animation-delay:2.58s"><tspan class="k">Homelab</tspan><tspan x="492" class="v">Jellyfin · Pi-hole · WireGuard · Bitwarden</tspan></text>
+
+  <!-- final prompt -->
+  <g class="fade" style="animation-delay:3.4s">
+    <text class="p" x="30" y="494"><tspan class="usr">17med@tunis</tspan><tspan class="v">:</tspan><tspan class="dir">~</tspan><tspan class="v">$ </tspan></text>
+    <rect class="cur" x="157" y="481" width="9" height="17" fill="#c0caf5"/>
+  </g>
+
+  <!-- crt scanlines -->
+  <rect x="10" y="48" width="940" height="482" fill="url(#scan)" clip-path="url(#win)" pointer-events="none"/>
+</svg>
